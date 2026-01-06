@@ -75,10 +75,11 @@ h1{
   overflow:hidden;
   border:1px solid rgba(0,0,0,.06);
   background:#fff;
-  height: 250px;
+  width: 100%;
+  max-width: 250px;      /* keeps same size on desktop */
+  aspect-ratio: 1 / 1;   /* stays a perfect square */
   transform: translateY(0);
   transition: transform .25s ease;
-  width: 250px;
 }
 .photo:hover{ transform: translateY(-4px); }
 
