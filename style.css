@@ -191,5 +191,4 @@ h1{
 
 @media (max-width: 720px){
   .photos{ grid-template-columns: 1fr; }
-  .photo img{ height:180px; }
 }
